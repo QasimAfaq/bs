@@ -267,7 +267,7 @@
             }
         }
         p {
-            font-size: 20px;
+            font-size: 16px;
             color: #FFFFFF;
             margin-top: 20px;
             margin-bottom: 40px;
@@ -307,8 +307,8 @@
     background: #222 url(../img/banner-4-1.png) left center no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 350px;
-    padding-bottom: 435px;
+    padding-top: 250px;
+    padding-bottom: 335px;
     .container {
         h3,
         p {
@@ -321,6 +321,7 @@
             letter-spacing: .025em;            
             font-weight: 300;
             span {font-weight: 500;}
+            padding-top: 100px;
         }
         p {font-size: 20px;line-height: 32px;color: #FFFFFF;margin-top: 20px;}
         a.video-popup {

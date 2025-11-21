@@ -815,3 +815,26 @@ jQuery(window).on('scroll', function() {
         OnePageMenuScroll();   
     })(jQuery);
 });
+
+
+  const faqs = document.querySelectorAll(".faq-item");
+
+  faqs.forEach(faq => {
+    faq.querySelector(".faq-question").addEventListener("click", () => {
+      
+      // close all except clicked
+      faqs.forEach(item => {
+        if (item !== faq) {
+          item.classList.remove("active");
+          item.querySelector(".faq-answer").style.maxHeight = null;
+        }
+      });
+
+      faq.classList.toggle("active");
+
+      const answer = faq.querySelector(".faq-answer");
+      answer.style.maxHeight = faq.classList.contains("active")
+        ? answer.scrollHeight + "px"
+        : null;
+    });
+  });
