@@ -4410,15 +4410,6 @@ body.active-preloader-ovh {
   white-space: nowrap;    /* 👈 THIS FIXES YOUR ISSUE */
 }
 
-/* Blue Button */
-.mainCTA {
-  background: #2d6cdf;
-  color: #fff;
-}
-
-.mainCTA:hover {
-  background: #1a54bb;
-}
 
 /* WhatsApp Button */
 .whatsappCTA {

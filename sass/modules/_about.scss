@@ -236,3 +236,23 @@
     }
     img.about-image {margin-top: 90px;}
 }
+
+.brand-carousel .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-carousel .item img {
+  max-width: 120px;   /* adjust as needed */
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  opacity: 0.85;
+  transition: 0.3s ease;
+}
+
+.brand-carousel .item img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
